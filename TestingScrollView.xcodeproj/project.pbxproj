@@ -13,6 +13,7 @@
 		09E849102296A27800502624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E8490F2296A27800502624 /* Assets.xcassets */; };
 		09E849132296A27800502624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E849112296A27800502624 /* LaunchScreen.storyboard */; };
 		09E8491B229903F100502624 /* getDemoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8491A229903F100502624 /* getDemoButton.swift */; };
+		09E8491D22990D5A00502624 /* TextPlaceholderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		09E849122296A27800502624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09E849142296A27800502624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09E8491A229903F100502624 /* getDemoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDemoButton.swift; sourceTree = "<group>"; };
+		09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPlaceholderStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				09E849112296A27800502624 /* LaunchScreen.storyboard */,
 				09E849142296A27800502624 /* Info.plist */,
 				09E8491A229903F100502624 /* getDemoButton.swift */,
+				09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */,
 			);
 			path = TestingScrollView;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				09E8490B2296A27700502624 /* ViewController.swift in Sources */,
 				09E849092296A27700502624 /* AppDelegate.swift in Sources */,
+				09E8491D22990D5A00502624 /* TextPlaceholderStyle.swift in Sources */,
 				09E8491B229903F100502624 /* getDemoButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
