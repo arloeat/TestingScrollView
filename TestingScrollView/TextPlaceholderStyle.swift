@@ -12,17 +12,20 @@ class TextPlaceholderStyle: UILabel {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setupLabel()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder:aDecoder)
+        setupLabel()
     }
     
     func setupLabel(){
         layer.cornerRadius = 10
         layer.borderWidth = 1
         layer.borderColor = UIColor.darkGray.cgColor
-        backgroundColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+        backgroundColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        layer.masksToBounds = true
     }
     
 }

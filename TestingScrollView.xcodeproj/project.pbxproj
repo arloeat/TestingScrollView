@@ -14,6 +14,7 @@
 		09E849132296A27800502624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E849112296A27800502624 /* LaunchScreen.storyboard */; };
 		09E8491B229903F100502624 /* getDemoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8491A229903F100502624 /* getDemoButton.swift */; };
 		09E8491D22990D5A00502624 /* TextPlaceholderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */; };
+		09E8491F229A6D7000502624 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8491E229A6D7000502624 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		09E849142296A27800502624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09E8491A229903F100502624 /* getDemoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDemoButton.swift; sourceTree = "<group>"; };
 		09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPlaceholderStyle.swift; sourceTree = "<group>"; };
+		09E8491E229A6D7000502624 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				09E849142296A27800502624 /* Info.plist */,
 				09E8491A229903F100502624 /* getDemoButton.swift */,
 				09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */,
+				09E8491E229A6D7000502624 /* RegisterViewController.swift */,
 			);
 			path = TestingScrollView;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09E8490B2296A27700502624 /* ViewController.swift in Sources */,
+				09E8491F229A6D7000502624 /* RegisterViewController.swift in Sources */,
 				09E849092296A27700502624 /* AppDelegate.swift in Sources */,
 				09E8491D22990D5A00502624 /* TextPlaceholderStyle.swift in Sources */,
 				09E8491B229903F100502624 /* getDemoButton.swift in Sources */,
