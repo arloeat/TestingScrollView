@@ -10,22 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-   
+    @IBOutlet weak var descriptionImageTop: UIView!
+    @IBOutlet weak var descriptionImageMiddle: UIViewStyle!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        UIView.animate(withDuration: 10){
+            self.descriptionImageTop.alpha = 1
+            self.descriptionImageMiddle.transform = CGAffineTransform (rotationAngle: CGFloat(Double.pi))
+        }
     }
-    
-    @IBAction func getDemoButtonTapped(_ sender: Any) {
-        
-        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        
-        guard let destinationViewController = mainStoryboard.instantiateViewController(withIdentifier: "RegisterViewController") as? RegisterViewController else{
-            print("couldn't find view controller")
-            return}
-        
-        navigationController?.pushViewController(destinationViewController, animated: true)
-    }
-    
     
 }
+
