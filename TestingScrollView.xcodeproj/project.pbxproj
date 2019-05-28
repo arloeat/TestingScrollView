@@ -16,6 +16,7 @@
 		09E8491D22990D5A00502624 /* TextPlaceholderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */; };
 		09E8491F229A6D7000502624 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8491E229A6D7000502624 /* RegisterViewController.swift */; };
 		09E84921229D66B200502624 /* UIViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E84920229D66B200502624 /* UIViewStyle.swift */; };
+		09E84923229D6F9700502624 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E84922229D6F9700502624 /* RegisterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPlaceholderStyle.swift; sourceTree = "<group>"; };
 		09E8491E229A6D7000502624 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		09E84920229D66B200502624 /* UIViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewStyle.swift; sourceTree = "<group>"; };
+		09E84922229D6F9700502624 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				09E8491C22990D5A00502624 /* TextPlaceholderStyle.swift */,
 				09E8491E229A6D7000502624 /* RegisterViewController.swift */,
 				09E84920229D66B200502624 /* UIViewStyle.swift */,
+				09E84922229D6F9700502624 /* RegisterButton.swift */,
 			);
 			path = TestingScrollView;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				09E84921229D66B200502624 /* UIViewStyle.swift in Sources */,
 				09E8490B2296A27700502624 /* ViewController.swift in Sources */,
 				09E8491F229A6D7000502624 /* RegisterViewController.swift in Sources */,
+				09E84923229D6F9700502624 /* RegisterButton.swift in Sources */,
 				09E849092296A27700502624 /* AppDelegate.swift in Sources */,
 				09E8491D22990D5A00502624 /* TextPlaceholderStyle.swift in Sources */,
 				09E8491B229903F100502624 /* getDemoButton.swift in Sources */,

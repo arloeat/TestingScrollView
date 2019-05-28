@@ -84,6 +84,11 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                         <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <segue destination="Vsc-px-Pe4" kind="popoverPresentation" popoverAnchorView="in5-j8-YCs" id="nDJ-Nf-KzH">
+                                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                            </segue>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.66648496806143354" green="0.79998530083772268" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -340,6 +345,11 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <segue destination="Vsc-px-Pe4" kind="popoverPresentation" popoverAnchorView="PGr-sL-Who" id="d5n-rs-ktR">
+                                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                    </segue>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -432,16 +442,16 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7H-ac-fCD">
+                                        <rect key="frame" x="91" y="339" width="96" height="30"/>
+                                        <color key="backgroundColor" red="0.74351135316654493" green="0.75977232829724661" blue="0.77637224740932642" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5z-6M-kq8">
-                                        <rect key="frame" x="159" y="339" width="96" height="30"/>
-                                        <color key="backgroundColor" red="0.1749463808" green="0.96475356820000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <rect key="frame" x="228" y="339" width="96" height="30"/>
+                                        <color key="backgroundColor" red="0.42585272152518566" green="0.96475356820000002" blue="0.29321513819135459" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="96" id="Mkk-ZI-zf3"/>
                                         </constraints>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7H-ac-fCD">
-                                        <rect key="frame" x="159" y="377" width="96" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.16613173940000001" blue="0.14417289220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.66648496810000002" green="0.79998530079999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -507,4 +517,7 @@
     <resources>
         <image name="StarYellow" width="34" height="29"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="nDJ-Nf-KzH"/>
+    </inferredMetricsTieBreakers>
 </document>
